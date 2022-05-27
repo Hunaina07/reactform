@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,8 +21,18 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
+
+.main{
+  padding: 30px 20px;
+  width: 300px;
+  box-shadow: 2px 2px 2px 3px burlywood;
+  margin: 20px auto;
 }
+.head{
+  margin: 0;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +46,17 @@
     transform: rotate(360deg);
   }
 }
+.sidebars{
+  font-size: 2rem;
+  background-color: #61dafb;
+  width: 250px;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 850ms;
+list-style: none;
+margin-top: 75px;
+
+}
+
